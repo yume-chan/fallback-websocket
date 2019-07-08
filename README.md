@@ -1,5 +1,7 @@
 # Fallback WebSocket
 
+![travis-ci](https://travis-ci.org/yume-chan/fallback-websocket.svg?branch=master)
+
 Get native WebSocket from browsers, with ws as a fallback for Node.js
 
 - [Fallback WebSocket](#Fallback-WebSocket)
