@@ -1,5 +1,7 @@
 # Fallback WebSocket
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/yume-chan/fallback-websocket.svg)](https://greenkeeper.io/)
+
 ![travis-ci](https://travis-ci.org/yume-chan/fallback-websocket.svg?branch=master)
 
 Get native WebSocket from browsers, with ws as a fallback for Node.js
