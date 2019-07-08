@@ -1,0 +1,32 @@
+{
+  "name": "typescript-package-scaffold",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yume-chan/typescript-package-scaffold.git"
+  },
+  "author": "Simon Chan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yume-chan/typescript-package-scaffold/issues"
+  },
+  "homepage": "https://github.com/yume-chan/typescript-package-scaffold#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.2"
+  }
+}
