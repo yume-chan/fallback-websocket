@@ -1,10 +1,10 @@
 import WebSocket from './websocket';
 
-function isErrorEvent(e: Event): e is ErrorEvent {
+export function isErrorEvent(e: Event): e is ErrorEvent {
     return 'error' in e;
 }
 
-export function connectWebSocket(url: string): Promise<WebSocket> {
+export function connect(url: string): Promise<WebSocket> {
     return new Promise((resolve, reject) => {
         function handleOpen() {
             socket.removeEventListener('open', handleOpen);
