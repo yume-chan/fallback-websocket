@@ -32,6 +32,12 @@ This package detects whether there is a native WebSocket implementation, and fal
 npm install @yume-chan/fallback-websocket
 ```
 
+`ws` is a peer dependency, you need to install it separately for Node.js.
+
+``` shell
+npm install ws
+```
+
 ## API
 
 ``` ts
