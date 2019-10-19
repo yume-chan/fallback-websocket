@@ -5,7 +5,7 @@ devDependencies:
   jest: 24.8.0
   ts-jest: 24.0.2_jest@24.8.0
   typescript: 3.5.3
-  ws: 7.1.2
+  ws: 7.2.0
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.0.0:
@@ -3517,12 +3517,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-jaHFD6PFv6UgoIVda6qZllptQsMlDEJkTQcybzzXDYM1XO9Y8em691FGMPmM46WGyLU4z9KMgQN+qrux/nhlHA==
-  /ws/7.1.2:
+  /ws/7.2.0:
     dependencies:
       async-limiter: 1.0.1
     dev: true
     resolution:
-      integrity: sha512-gftXq3XI81cJCgkUiAVixA0raD9IVmXqsylCrjRygw4+UOOGzPoxnQ6r/CnVL9i+mDncJo94tSkyrtuuQVBmrg==
+      integrity: sha512-+SqNqFbwTm/0DC18KYzIsMTnEWpLwJsiasW/O17la4iDRRIO9uaHbvKiAS3AHgTiuuWerK/brj4O6MYZkei9xg==
   /xml-name-validator/3.0.0:
     dev: true
     resolution:
@@ -3568,4 +3568,4 @@ specifiers:
   jest: ^24.8.0
   ts-jest: ^24.0.2
   typescript: 3.5.3
-  ws: 7.1.2
+  ws: 7.2.0
