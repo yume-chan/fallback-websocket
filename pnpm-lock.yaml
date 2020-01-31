@@ -5,7 +5,7 @@ devDependencies:
   jest: 24.8.0
   ts-jest: 25.1.0_jest@24.8.0
   typescript: 3.5.3
-  ws: 7.2.0
+  ws: 7.2.1
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.0.0:
@@ -515,10 +515,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-jp/uFnooOiO+L211eZOoSyzpOITMXx1rBITauYykG3BRYPu8h0UcxsPNB04RR5vo4Tyz3+ay17tR6JVf9qzYWg==
-  /async-limiter/1.0.1:
-    dev: true
-    resolution:
-      integrity: sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
   /asynckit/0.4.0:
     dev: true
     resolution:
@@ -3546,12 +3542,20 @@ packages:
     dev: true
     resolution:
       integrity: sha512-jaHFD6PFv6UgoIVda6qZllptQsMlDEJkTQcybzzXDYM1XO9Y8em691FGMPmM46WGyLU4z9KMgQN+qrux/nhlHA==
-  /ws/7.2.0:
-    dependencies:
-      async-limiter: 1.0.1
+  /ws/7.2.1:
     dev: true
+    engines:
+      node: '>=8.3.0'
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: ^5.0.2
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
     resolution:
-      integrity: sha512-+SqNqFbwTm/0DC18KYzIsMTnEWpLwJsiasW/O17la4iDRRIO9uaHbvKiAS3AHgTiuuWerK/brj4O6MYZkei9xg==
+      integrity: sha512-sucePNSafamSKoOqoNfBd8V0StlkzJKL2ZAhGQinCfNQ+oacw+Pk7lcdAElecBF2VkLNZRiIb5Oi1Q5lVUVt2A==
   /xml-name-validator/3.0.0:
     dev: true
     resolution:
@@ -3597,4 +3601,4 @@ specifiers:
   jest: ^24.8.0
   ts-jest: ^25.1.0
   typescript: 3.5.3
-  ws: 7.2.0
+  ws: 7.2.1
