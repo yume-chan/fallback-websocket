@@ -1,7 +1,7 @@
 devDependencies:
   '@types/jest': 25.1.5
   '@types/node': 13.9.1
-  '@types/ws': 6.0.1
+  '@types/ws': 7.2.4
   jest: 24.8.0
   ts-jest: 25.1.0_jest@24.8.0
   typescript: 3.5.3
@@ -341,10 +341,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
-  /@types/events/3.0.0:
-    dev: true
-    resolution:
-      integrity: sha512-EaObqwIvayI5a8dCzhFrjKzVwKLxjoG9T6Ppd5CEo07LRKfQ8Yokw54r5+Wq7FaBQ+yXRvQAYPrHwya1/UFt9g==
   /@types/istanbul-lib-coverage/2.0.1:
     dev: true
     resolution:
@@ -369,10 +365,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-FBmb9YZHoEOH56Xo/PIYtfuyTL0IzJLM3Hy0Sqc82nn5eqqXgefKcl/eMgChM8eSGVfoDee8cdlj7K74T8a6Yg==
-  /@types/node/12.6.1:
-    dev: true
-    resolution:
-      integrity: sha512-rp7La3m845mSESCgsJePNL/JQyhkOJA6G4vcwvVgkDAwHhGdq5GCumxmPjEk1MZf+8p5ZQAUE7tqgQRQTXN7uQ==
   /@types/node/13.9.1:
     dev: true
     resolution:
@@ -381,13 +373,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
-  /@types/ws/6.0.1:
+  /@types/ws/7.2.4:
     dependencies:
-      '@types/events': 3.0.0
-      '@types/node': 12.6.1
+      '@types/node': 13.9.1
     dev: true
     resolution:
-      integrity: sha512-EzH8k1gyZ4xih/MaZTXwT2xOkPiIMSrhQ9b8wrlX88L0T02eYsddatQlwVFlEPyEqV0ChpdpNnE51QPH6NVT4Q==
+      integrity: sha512-9S6Ask71vujkVyeEXKxjBSUV8ZUB0mjL5la4IncBoheu04bDaYyUKErh1BQcY9+WzOUOiKqz/OnpJHYckbMfNg==
   /@types/yargs-parser/15.0.0:
     dev: true
     resolution:
@@ -3718,7 +3709,7 @@ packages:
 specifiers:
   '@types/jest': ^25.1.5
   '@types/node': 13.9.1
-  '@types/ws': ^6.0.1
+  '@types/ws': ^7.2.4
   jest: ^24.8.0
   ts-jest: ^25.1.0
   typescript: 3.5.3
