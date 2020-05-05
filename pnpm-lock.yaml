@@ -1,6 +1,6 @@
 devDependencies:
   '@types/jest': 25.1.5
-  '@types/node': 13.13.4
+  '@types/node': 13.13.5
   '@types/ws': 6.0.1
   jest: 24.8.0
   ts-jest: 25.1.0_jest@24.8.0
@@ -373,10 +373,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-rp7La3m845mSESCgsJePNL/JQyhkOJA6G4vcwvVgkDAwHhGdq5GCumxmPjEk1MZf+8p5ZQAUE7tqgQRQTXN7uQ==
-  /@types/node/13.13.4:
+  /@types/node/13.13.5:
     dev: true
     resolution:
-      integrity: sha512-x26ur3dSXgv5AwKS0lNfbjpCakGIduWU1DU91Zz58ONRWrIKGunmZBNv4P7N+e27sJkiGDsw/3fT4AtsqQBrBA==
+      integrity: sha512-3ySmiBYJPqgjiHA7oEaIo2Rzz0HrOZ7yrNO5HWyaE5q0lQ3BppDZ3N53Miz8bw2I7gh1/zir2MGVZBvpb1zq9g==
   /@types/stack-utils/1.0.1:
     dev: true
     resolution:
@@ -3717,7 +3717,7 @@ packages:
       integrity: sha512-Lhz8TLaYnxq/2ObqHDql8dX8CJi97oHxrjUcYtzKbbykPtVW9WB+poxI+NM2UIzsMgNCZTIf0AQwsjK5yMAqZw==
 specifiers:
   '@types/jest': ^25.1.5
-  '@types/node': 13.13.4
+  '@types/node': 13.13.5
   '@types/ws': ^6.0.1
   jest: ^24.8.0
   ts-jest: ^25.1.0
