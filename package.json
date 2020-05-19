@@ -27,7 +27,7 @@
     "@types/jest": "25.2.3",
     "@types/node": "13.13.6",
     "@types/ws": "7.2.4",
-    "jest": "24.9.0",
+    "jest": "26.0.1",
     "ts-jest": "26.0.0",
     "typescript": "3.9.2",
     "ws": "7.3.0"
