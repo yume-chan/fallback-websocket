@@ -29,7 +29,7 @@
     "@types/ws": "6.0.4",
     "jest": "24.9.0",
     "ts-jest": "25.5.1",
-    "typescript": "3.5.3",
+    "typescript": "3.9.2",
     "ws": "7.2.3"
   },
   "peerDependencies": {
