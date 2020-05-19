@@ -1,11 +1,11 @@
 devDependencies:
   '@types/jest': 25.2.3
   '@types/node': 13.13.6
-  '@types/ws': 6.0.4
+  '@types/ws': 7.2.4
   jest: 24.9.0
   ts-jest: 25.5.1_jest@24.9.0+typescript@3.9.2
   typescript: 3.9.2
-  ws: 7.2.3
+  ws: 7.3.0
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.8.3:
@@ -418,10 +418,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-JXc1nK/tXHiDhV55dvfzqtmP4S3sy3T3ouV2tkViZgxY/zeUkcpQcQPGRlgF4KmWzWW5oiWYSZwtCB+2RsE4Fw==
-  /@types/node/13.13.4:
-    dev: true
-    resolution:
-      integrity: sha512-x26ur3dSXgv5AwKS0lNfbjpCakGIduWU1DU91Zz58ONRWrIKGunmZBNv4P7N+e27sJkiGDsw/3fT4AtsqQBrBA==
   /@types/node/13.13.6:
     dev: true
     resolution:
@@ -430,12 +426,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
-  /@types/ws/6.0.4:
+  /@types/ws/7.2.4:
     dependencies:
-      '@types/node': 13.13.4
+      '@types/node': 13.13.6
     dev: true
     resolution:
-      integrity: sha512-PpPrX7SZW9re6+Ha8ojZG4Se8AZXgf0GK6zmfqEuCsY49LFDNXO3SByp44X3dFEqtB73lkCDAdUazhAjVPiNwg==
+      integrity: sha512-9S6Ask71vujkVyeEXKxjBSUV8ZUB0mjL5la4IncBoheu04bDaYyUKErh1BQcY9+WzOUOiKqz/OnpJHYckbMfNg==
   /@types/yargs-parser/15.0.0:
     dev: true
     resolution:
@@ -3606,7 +3602,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-jaHFD6PFv6UgoIVda6qZllptQsMlDEJkTQcybzzXDYM1XO9Y8em691FGMPmM46WGyLU4z9KMgQN+qrux/nhlHA==
-  /ws/7.2.3:
+  /ws/7.3.0:
     dev: true
     engines:
       node: '>=8.3.0'
@@ -3619,7 +3615,7 @@ packages:
       utf-8-validate:
         optional: true
     resolution:
-      integrity: sha512-HTDl9G9hbkNDk98naoR/cHDws7+EyYMOdL1BmjsZXRUjf7d+MficC4B7HLUPlSiho0vg+CWKrGIt/VJBd1xunQ==
+      integrity: sha512-iFtXzngZVXPGgpTlP1rBqsUK82p9tKqsWRPg5L56egiljujJT3vGAYnHANvFxBieXrTFavhzhxW52jnaWV+w2w==
   /xml-name-validator/3.0.0:
     dev: true
     resolution:
@@ -3662,8 +3658,8 @@ packages:
 specifiers:
   '@types/jest': 25.2.3
   '@types/node': 13.13.6
-  '@types/ws': 6.0.4
+  '@types/ws': 7.2.4
   jest: 24.9.0
   ts-jest: 25.5.1
   typescript: 3.9.2
-  ws: 7.2.3
+  ws: 7.3.0

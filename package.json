@@ -26,11 +26,11 @@
   "devDependencies": {
     "@types/jest": "25.2.3",
     "@types/node": "13.13.6",
-    "@types/ws": "6.0.4",
+    "@types/ws": "7.2.4",
     "jest": "24.9.0",
     "ts-jest": "25.5.1",
     "typescript": "3.9.2",
-    "ws": "7.2.3"
+    "ws": "7.3.0"
   },
   "peerDependencies": {
     "ws": "^7.0.0"
