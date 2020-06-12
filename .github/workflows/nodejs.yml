@@ -26,6 +26,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
+    - name: Setup PNPM
+      uses: pnpm/action-setup@v1.2.0
+      with:
+        version: latest
+
     - name: Cache multiple paths
       uses: actions/cache@v2
       with:
@@ -33,14 +38,7 @@ jobs:
           ~/.pnpm-store/v3
         key: ${{ runner.os }}-pnpm
 
-    - name: Setup PNPM
-      uses: pnpm/action-setup@v1.2.0
-      with:
-        version: latest
-
     - run: pnpm install
-      env:
-        CI: true
 
     - run: pnpm run build --if-present
     - run: pnpm test
