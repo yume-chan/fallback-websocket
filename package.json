@@ -30,7 +30,7 @@
     "jest": "26.1.0",
     "ts-jest": "26.1.1",
     "typescript": "3.9.5",
-    "ws": "7.3.0"
+    "ws": "7.3.1"
   },
   "peerDependencies": {
     "ws": "^7.0.0"
