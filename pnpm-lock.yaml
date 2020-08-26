@@ -3,7 +3,7 @@ devDependencies:
   '@types/node': 14.0.27
   '@types/ws': 7.2.6
   jest: 26.4.0
-  ts-jest: 26.2.0_jest@26.4.0+typescript@3.9.7
+  ts-jest: 26.3.0_jest@26.4.0+typescript@3.9.7
   typescript: 3.9.7
   ws: 7.3.1
 lockfileVersion: 5.1
@@ -3585,7 +3585,7 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-3n1qG+/5kg+jrbTzwAykB5yRYtQCTqOGKq5U5PE3b0a1/mzo6snDhjGS0zJVJunO0NrT3Dg1MLy5TjWP/UJppg==
-  /ts-jest/26.2.0_jest@26.4.0+typescript@3.9.7:
+  /ts-jest/26.3.0_jest@26.4.0+typescript@3.9.7:
     dependencies:
       '@types/jest': 26.0.9
       bs-logger: 0.2.6
@@ -3606,9 +3606,9 @@ packages:
     hasBin: true
     peerDependencies:
       jest: '>=26 <27'
-      typescript: '>=3.8 <4.0'
+      typescript: '>=3.8 <5.0'
     resolution:
-      integrity: sha512-9+y2qwzXdAImgLSYLXAb/Rhq9+K4rbt0417b8ai987V60g2uoNWBBmMkYgutI7D8Zhu+IbCSHbBtrHxB9d7xyA==
+      integrity: sha512-Jq2uKfx6bPd9+JDpZNMBJMdMQUC3sJ08acISj8NXlVgR2d5OqslEHOR2KHMgwymu8h50+lKIm0m0xj/ioYdW2Q==
   /tunnel-agent/0.6.0:
     dependencies:
       safe-buffer: 5.2.1
@@ -3898,6 +3898,6 @@ specifiers:
   '@types/node': 14.0.27
   '@types/ws': 7.2.6
   jest: 26.4.0
-  ts-jest: 26.2.0
+  ts-jest: 26.3.0
   typescript: 3.9.7
   ws: 7.3.1
