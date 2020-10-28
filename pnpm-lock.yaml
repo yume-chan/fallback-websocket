@@ -1,5 +1,5 @@
 devDependencies:
-  '@types/jest': 26.0.13
+  '@types/jest': 26.0.15
   '@types/node': 14.14.5
   '@types/ws': 7.2.8
   jest: 26.6.1
@@ -596,6 +596,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-sCzjKow4z9LILc6DhBvn5AkIfmQzDZkgtVVKmGwVrs5tuid38ws281D4l+7x1kP487+FlKDh5kfMZ8WSPAdmdA==
+  /@types/jest/26.0.15:
+    dependencies:
+      jest-diff: 26.6.1
+      pretty-format: 26.6.1
+    dev: true
+    resolution:
+      integrity: sha512-s2VMReFXRg9XXxV+CW9e5Nz8fH2K1aEhwgjUqPPbQd7g95T0laAcvLv032EhFHIa5GHsZ8W7iJEQVaJq6k3Gog==
   /@types/node/14.14.5:
     dev: true
     resolution:
@@ -3956,7 +3963,7 @@ packages:
     resolution:
       integrity: sha512-aePbxDmcYW++PaqBsJ+HYUFwCdv4LVvdnhBy78E57PIor8/OVvhMrADFFEDh8DHDFRv/O9i3lPhsENjO7QX0+A==
 specifiers:
-  '@types/jest': 26.0.13
+  '@types/jest': 26.0.15
   '@types/node': 14.14.5
   '@types/ws': 7.2.8
   jest: 26.6.1
