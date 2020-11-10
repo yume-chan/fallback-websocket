@@ -1,11 +1,11 @@
 devDependencies:
   '@types/jest': 26.0.15
   '@types/node': 14.14.5
-  '@types/ws': 7.2.8
+  '@types/ws': 7.4.0
   jest: 26.6.1
   ts-jest: 26.4.3_jest@26.6.1+typescript@4.0.2
   typescript: 4.0.2
-  ws: 7.3.1
+  ws: 7.4.0
 lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.10.1:
@@ -619,12 +619,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-RJJrrySY7A8havqpGObOB4W92QXKJo63/jFLLgpvOtsGUqbQZ9Sbgl35KMm1DjC6j7AvmmU2bIno+3IyEaemaw==
-  /@types/ws/7.2.8:
+  /@types/ws/7.4.0:
     dependencies:
       '@types/node': 14.14.5
     dev: true
     resolution:
-      integrity: sha512-LGtjDQxcMk4uU7ET85qJWYLwCdsSxLRxqOums/SDDWJw/BCCgFrOvqcvly6rGNkB/OkOiUaRzzhz8pchuxXr7w==
+      integrity: sha512-Y29uQ3Uy+58bZrFLhX36hcI3Np37nqWE7ky5tjiDoy1GDZnIwVxS0CgF+s+1bXMzjKBFy+fqaRfb708iNzdinw==
   /@types/yargs-parser/15.0.0:
     dev: true
     resolution:
@@ -3917,6 +3917,20 @@ packages:
         optional: true
     resolution:
       integrity: sha512-D3RuNkynyHmEJIpD2qrgVkc9DQ23OrN/moAwZX4L8DfvszsJxpjQuUq3LMx6HoYji9fbIOBY18XWBsAux1ZZUA==
+  /ws/7.4.0:
+    dev: true
+    engines:
+      node: '>=8.3.0'
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: ^5.0.2
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+    resolution:
+      integrity: sha512-kyFwXuV/5ymf+IXhS6f0+eAFvydbaBW3zjpT6hUdAh/hbVjTIB5EHBGi0bPoCLSK2wcuz3BrEkB9LrYv1Nm4NQ==
   /xml-name-validator/3.0.0:
     dev: true
     resolution:
@@ -3965,8 +3979,8 @@ packages:
 specifiers:
   '@types/jest': 26.0.15
   '@types/node': 14.14.5
-  '@types/ws': 7.2.8
+  '@types/ws': 7.4.0
   jest: 26.6.1
   ts-jest: 26.4.3
   typescript: 4.0.2
-  ws: 7.3.1
+  ws: 7.4.0
