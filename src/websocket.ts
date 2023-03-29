@@ -1,11 +1,10 @@
 let result: typeof WebSocket;
 
-if (typeof process != 'undefined' && process.env.FORCE_WS) {
+if (typeof WebSocket === 'undefined' ||
+    (typeof process !== 'undefined' && process.env.FORCE_WS)) {
     result = require("ws");
-} else if (typeof WebSocket !== 'undefined') {
-    result = WebSocket;
 } else {
-    result = require("ws");
+    result = WebSocket;
 }
 
 export default result;
