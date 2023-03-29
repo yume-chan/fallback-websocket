@@ -39,5 +39,5 @@ jobs:
         version: latest
         run_install: true
 
-    - run: pnpm run build --if-present
+    - run: pnpm run --if-present build
     - run: pnpm test
